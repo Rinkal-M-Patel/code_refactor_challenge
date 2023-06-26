@@ -1,158 +1,160 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 
 }
 
 body {
-    background-color: #d9dcd6;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #d9dcd6;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
-    color: #ffffff;
-    text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 p {
-    font-size: 16px;
+	font-size: 16px;
 }
 
 
 /* --------header css start---------- */
 
 header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+	padding: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	background-color: #2a607c;
+	color: #ffffff;
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 48px;
+	display: inline-block;
+	font-size: 48px;
 }
 
 header h1 .seo {
-    color: #d9dcd6;
+	color: #d9dcd6;
 }
 
 header nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+	padding-top: 15px;
+	margin-right: 20px;
+	float: right;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20px;
 }
 
 header nav ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
+	display: inline-block;
+	margin-left: 25px;
 }
 
 /* ---header css end----- */
 
 /* -----------Hero banner css start-------- */
 .hero {
-    position: relative;
-    width: 100%;
-    height: 800px;
-    margin-bottom: 25px;
+	position: relative;
+	width: 100%;
+	height: 800px;
+	margin-bottom: 25px;
 }
 
-.hero::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("../images/digital-marketing-meeting.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+.hero::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../images/digital-marketing-meeting.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
+
 /* --------Hero banner css end---------- */
 
 /*---- section css start---------- */
 .search_section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	background-color: #0072bb;
+	color: #ffffff;
 }
 
 .search_section img {
-    max-height: 200px;
+	max-height: 200px;
 }
 
 .search_section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+	margin-bottom: 20px;
+	font-size: 36px;
 }
 
 .float-left {
-    float: left;
-    margin-right: 25px;
+	float: left;
+	margin-right: 25px;
 }
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+	float: right;
+	margin-left: 25px;
 }
 
 .content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+	width: 75%;
+	display: inline-block;
+	margin-left: 20px;
 }
 
 /* ---section css end------ */
 
 /* ------ aside css start------- */
 aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    background-color: #2589bd;
+	margin-right: 20px;
+	padding: 20px;
+	clear: both;
+	float: right;
+	width: 20%;
+	height: 100%;
+	background-color: #2589bd;
 }
 
 .benefit_side {
-    margin-bottom: 32px;
-    color: #ffffff;
+	margin-bottom: 32px;
+	color: #ffffff;
 }
 
 .benefit_side h3 {
-    margin-bottom: 10px;
-    text-align: center;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .benefit_side img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+	display: block;
+	margin: 10px auto;
+	max-width: 150px;
 }
 
 /* ----aside css end----- */
 
 /* ------footer css start--------*/
 footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+	padding: 30px;
+	clear: both;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
 }
 
 footer h2 {
-    font-size: 20px;
+	font-size: 20px;
 }
+
 /* ---footer css end---- */
