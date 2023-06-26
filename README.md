@@ -35,7 +35,7 @@ N/A
 
 ## Demo
 
-Insert gif or link to demo
+https://rinkal-m-patel.github.io/code_refactor_challenge/
 
 
 
