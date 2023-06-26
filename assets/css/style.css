@@ -10,6 +10,18 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+/* --------header css start---------- */
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,15 +55,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/* ---header css end----- */
 
-p {
-    font-size: 16px;
-}
-
+/* -----------Hero banner css start-------- */
 .hero {
     position: relative;
     width: 100%;
@@ -71,6 +77,25 @@ p {
     background-size: cover;
     background-position: center center;
 }
+/* --------Hero banner css end---------- */
+
+/*---- section css start---------- */
+.search_section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search_section img {
+    max-height: 200px;
+}
+
+.search_section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 .float-left {
     float: left;
@@ -88,6 +113,9 @@ p {
     margin-left: 20px;
 }
 
+/* ---section css end------ */
+
+/* ------ aside css start------- */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -114,23 +142,9 @@ aside {
     max-width: 150px;
 }
 
-.search_section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* ----aside css end----- */
 
-.search_section img {
-    max-height: 200px;
-}
-
-.search_section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* ------footer css start--------*/
 footer {
     padding: 30px;
     clear: both;
@@ -141,3 +155,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* ---footer css end---- */
