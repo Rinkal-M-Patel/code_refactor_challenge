@@ -51,12 +51,23 @@ p {
 }
 
 .hero {
-    height: 800px;
+    position: relative;
     width: 100%;
+    height: 800px;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/digital-marketing-meeting.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 .float-left {
